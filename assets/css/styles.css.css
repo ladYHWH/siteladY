@@ -59,6 +59,12 @@ header {
     align-items: baseline;
 }
 
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+}
+
+
 #logo img {
     width: 59px;
     height: 60px;
