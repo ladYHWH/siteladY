@@ -59,9 +59,11 @@ header {
     align-items: baseline;
 }
 
-.responsive-image {
-    max-width: 100%;
-    height: auto;
+.image-texte {
+    width: 100%;         /* L'image s'ajuste à 100% de la largeur du texte environnant */
+    max-width: 1em;      /* Limite la largeur maximale de l'image à 1em (la largeur de 1 caractère de texte) */
+    height: auto;        /* Maintient le ratio d'aspect de l'image */
+    vertical-align: middle; /* Aligne verticalement l'image avec le texte */
 }
 
 
